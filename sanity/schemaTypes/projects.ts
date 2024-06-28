@@ -28,6 +28,38 @@ export default{
             title:'Small Description'
         },
         {
+            name:'tags',
+            type:'array',
+            title:'Tags',
+            of:[
+                {type:'string'}
+            ],
+            options:{
+                list:[
+                    {title:'React',value:'react'},
+                    {title:'Next',value:'next'},
+                    {title:'Tailwind CSS',value:'tailwind css'},
+                    {title:'Sanity',value:'sanity'},
+                    {title:'Node',value:'node'},
+                    {title:'Express',value:'express'},
+                    {title:'MongoDB',value:'mongodb'},
+                    {title:'HTML',value:'html'},
+                    {title:'CSS',value:'css'},
+                    {title:'JavaScript',value:'javascript'},
+                    {title:'TypeScript',value:'typescript'},
+                    {title:'Python',value:'python'},
+                    {title:'Solidity',value:'solidity'},
+                    {title:'Web3',value:'web3'},
+                    {title:'Blockchain',value:'blockchain'},
+                    {title:'Ethereum',value:'ethereum'},
+                    {title:'Dapp',value:'dapp'},
+                    {title:'Smart Contract',value:'smart contract'},
+                    {title:'NFT',value:'nft'},
+                ],
+                layout:'radio'
+            }
+        },
+        {
             name:'content',
             type:'array',
             title:'Content',
